@@ -1,0 +1,72 @@
+@media (max-width:576px) {
+    .banner-text-img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-heading{
+        text-align: center;
+        margin-top: 10%;
+    }
+ṇ
+    .about-me .row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-me .left{
+        display: none;
+    }
+    .about-me .right{
+        width: 100%;
+        padding: 0 0;
+
+
+
+
+
+
+    }
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .contact-form .row1{
+        text-align: center;
+    }
+
+
+
+    table,th,td{
+  font-size: 14px;
+  
+    }
+}
+
+
+
+@media (max-width:271px) {
+    table tr {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0;
+        margin: 0 0;
+    }
+    
+    table,th,td{
+        font-size: 10px;
+        
+          }
+    
+}
+
+@media (max-width: 458px) {
+.gallery .container img{
+ width: 250px; 
+ margin-bottom: 30px;
+
+}
+}
